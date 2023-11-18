@@ -8,6 +8,7 @@ let nav_items_ids = {
 
 let active_nav_item_selector = "active"
 let active_item = nav_items_ids[document.location.pathname.toString()]
+console.log(document.location.pathname.toString())
 
 window.addEventListener("load", (event) => {
     document.querySelectorAll(nav_items_selector).forEach((function (el) {
